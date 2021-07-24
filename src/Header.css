@@ -1,0 +1,42 @@
+.header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+     position: sticky;
+     top: 0;
+     z-index: 100;
+
+}
+/* images this copy this style */
+.header-logo{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.header-input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border:1px solid lightgrey
+    
+}
+.header-input>input{
+    flex: 1;
+    border: none;
+}
+.header_inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: grey;
+}
+
+
+.header_icons{
+    display: flex;
+    align-items: center;
+}
+.header_icon{
+    margin-right: 5px;
+}

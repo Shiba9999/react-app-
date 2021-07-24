@@ -1,0 +1,13 @@
+.sidebar{
+    flex:0.2;
+
+
+}
+.sidebar>.hr{
+     height: 10 px;
+     border: 10;
+     background-color: black;
+     margin-top: 20 px;
+     margin-bottom: 20 px;
+   
+}
